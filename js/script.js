@@ -16,3 +16,9 @@ calculate.addEventListener('click', function (){
     let prezzo_finale = prezzo_biglietto - (prezzo_biglietto * sconto / 100)
     console.log(prezzo_finale.toFixed(2));
 });
+
+let btndelete = document.getElementById('delete');
+
+btndelete.addEventListener('click', function(){
+    document.getElementById('form').reset();
+})

@@ -11,24 +11,32 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-4 text-center">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" class="form-control">
-                </div>
-                <div class="col-4 text-center">
-                    <label for="km">Kilometri da percorre</label>
-                    <input type="text" id="km" class="form-control"> 
-                </div> 
-                <div class="col-4">
-                    <select name="" id="age">
-                        <option value="">Seleziona età</option>
-                        <option value="maggiorenne">Maggiorenne</option>
-                        <option value="minorenne">Minorenne</option>
-                        <option value="over65">Over 65</option>
-                    </select>
-                </div>
-                <div class="col-4">
+                <form action="#" id="form" class="d-flex">
+                    <div class="col-4 text-center">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" class="form-control">
+                    </div>
+                    <div class="col-4 text-center">
+                        <label for="km">Kilometri da percorre</label>
+                        <input type="text" id="km" class="form-control"> 
+                    </div> 
+                    <div class="col-4">
+                        <select name="" id="age">
+                            <option value="">Seleziona età</option>
+                            <option value="maggiorenne">Maggiorenne</option>
+                            <option value="minorenne">Minorenne</option>
+                            <option value="over65">Over 65</option>
+                        </select>
+                    </div>   
+                </form>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
                     <button class="btn btn-primary" id="calculate">Genera</button>
+                    <button class="btn btn-primary" id="delete">Annulla</button>
                 </div>
             </div>
         </div>
