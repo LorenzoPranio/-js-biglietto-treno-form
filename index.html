@@ -7,21 +7,25 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Biglietto del treno</title>
 </head>
-<body>
+<body  class="bg-purple">
     <main>
         <div class="container">
             <div class="row">
+                <div class="col-12 text-center">
+                    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+                </div>
                 <form action="#" id="form" class="d-flex">
-                    <div class="col-4 text-center">
+                    <div class="col-4 text-center m-4">
                         <label for="name">Nome</label>
                         <input type="text" id="name" class="form-control">
                     </div>
-                    <div class="col-4 text-center">
+                    <div class="col-4 text-center m-4">
                         <label for="km">Kilometri da percorre</label>
                         <input type="text" id="km" class="form-control"> 
                     </div> 
-                    <div class="col-4">
-                        <select name="" id="age">
+                    <div class="col-4 m-4">
+                        <label for="age">Fascia d'età</label>
+                        <select name="" id="age" class="d-block">
                             <option value="">Seleziona età</option>
                             <option value="maggiorenne">Maggiorenne</option>
                             <option value="minorenne">Minorenne</option>
@@ -29,14 +33,46 @@
                         </select>
                     </div>   
                 </form>
-                
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center m-4">
                     <button class="btn btn-primary" id="calculate">Genera</button>
                     <button class="btn btn-primary" id="delete">Annulla</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center m-4">
+                    <h2>IL TUO BIGLIETTO</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row bg-white">
+                <div class="col-12">
+                    <h4>DETTAGLI PASSEGGERI</h4>
+                </div>
+                <div class="col-4">
+                    <h4>NOME PASSEGGERO</h4>
+                    <p id="name"></p>
+                </div>
+                <div class="col-2 text-center">
+                    <h4>Offerta</h4>
+                    <p>Biglietto Standard</p>
+                </div>
+                <div class="col-2 text-center">
+                    <h4>Carrozza</h4>
+                    <p>5</p>
+                </div>
+                <div class="col-2 text-center">
+                    <h4>Codice CP</h4>
+                    <p>92911</p>
+                </div>
+                <div class="col-2 text-center">
+                    <h4>Costo Biglietto</h4>
                 </div>
             </div>
         </div>
