@@ -15,3 +15,21 @@ Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’im
 
 
 |SOLUZIONE|
+
+1.>Creo una costante che è il bottone dell'index
+
+2.>Creo una funzione per il bottone per acquisire i dati inseriti dall'utente
+2.1.>Creo una variabile per il nome
+2.2.>Creo una variabile per i kilometri da percorrere
+2.3.>Creo una variabile per l'età con IF
+2.3.1>Se ha meno di 18 anni lo sconto è del 20%
+2.3.1.1>Dichiare la variabile dello sconto
+2.3.2>Se ha più di 65 anni lo sconto è del 40%
+2.3.2.1>Dichiare la variabile dello sconto
+2.3.3>Se non rientra in nessuna delle due categorie non c'è nessuno sconto
+
+3.>Dichiarare la variabile per il prezzo finale
+3.1>Impostare la variabile con massimo 2 decimali
+
+4.>Chiedo all'utente i dati delle variabili
+
