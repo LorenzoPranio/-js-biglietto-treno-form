@@ -36,7 +36,6 @@ h2{
 
 h4{
     font-weight: bolder;
-    color: rgb(185, 20, 80);
 }
 
 .t-purple{
@@ -50,4 +49,18 @@ h4{
 .bord-p{
     border: 1px solid rgba(201, 129, 155, 0.699);
     border-radius: 7px;
+}
+
+.btn-mine{
+    background-color: white;
+    margin: 10px;
+}
+
+.btn-mine:hover{
+    transition: 1.5s;
+}
+
+.btn-mine h4:hover{
+    color: white;
+    transition: 1.5s;
 }
