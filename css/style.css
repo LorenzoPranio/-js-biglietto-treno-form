@@ -14,11 +14,11 @@
 }
 
 .bg-purplelight{
-    background-color: rgba(156, 66, 99, 0.699);
+    background-color: rgba(201, 129, 155, 0.699);
 }
 
 .borderb-p{
-    border-bottom: 3px solid rgba(156, 66, 99, 0.699);
+    border-bottom: 3px solid rgba(201, 129, 155, 0.699);
 }
 
 .bord-rad{
@@ -29,7 +29,16 @@ h5{
     font-weight: bold;
 }
 
-.bord-gray{
-    border: 1px solid lightgray;
+h2{
+    font-weight: bolder;
+    color: white;
+}
+
+.t-purple{
+    color: rgba(156, 66, 99, 0.795);
+}
+
+.bord-p{
+    border: 1px solid rgba(201, 129, 155, 0.699);
     border-radius: 7px;
 }
