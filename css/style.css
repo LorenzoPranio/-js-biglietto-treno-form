@@ -13,6 +13,23 @@
     border-radius: 10px;
 }
 
-.bg-violet{
-    background-color: blueviolet;
+.bg-purplelight{
+    background-color: rgba(156, 66, 99, 0.699);
+}
+
+.borderb-p{
+    border-bottom: 3px solid rgba(156, 66, 99, 0.699);
+}
+
+.bord-rad{
+    border-radius: 8px 0px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.bord-gray{
+    border: 1px solid lightgray;
+    border-radius: 7px;
 }
