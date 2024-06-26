@@ -34,8 +34,17 @@ h2{
     color: white;
 }
 
+h4{
+    font-weight: bolder;
+    color: rgb(185, 20, 80);
+}
+
 .t-purple{
     color: rgba(156, 66, 99, 0.795);
+}
+
+.t-purpledark{
+   color: rgb(185, 20, 80); 
 }
 
 .bord-p{
